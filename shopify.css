@@ -1,1 +1,24 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+  
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
 
+.container:after,
+.container:before,
+.row:after,
+.row:before{
+    content: "";
+    display: table;
+}
+
+.container:after,
+.row:after,
+.clearfix{
+    clear: both;
+}
