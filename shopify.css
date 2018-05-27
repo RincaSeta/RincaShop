@@ -201,8 +201,8 @@ body{
     }
 
 /*** SLIDER ***/
-    .fa-chevron-left,
-    .fa-angle-right{
+    .slider .fa-chevron-left,
+    .slider .fa-angle-right{
         color: #fff;
         font-size: 2.5em;
     }
@@ -212,6 +212,19 @@ body{
         padding: 5% 9%;
         background-color: #f6ab4a;
         border-radius: 50%;
+    }
+
+    .slider .carousel-indicators li{
+        border-color: #f6ab4a;
+        margin: 2px;
+    }
+
+    .slider .carousel-indicators li:hover{
+        background-color: #f6ab4a;
+    }
+
+    .slider .active{
+        background-color: #f6ab4a;
     }
 
 /** MAIN **/
