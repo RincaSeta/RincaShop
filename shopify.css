@@ -773,6 +773,11 @@ body{
         opacity: 1;
         overflow: hidden;
     }
+    #quote-carousel .fa-chevron-left,
+    #quote-carousel .fa-chevron-right{
+        color: #ddd;
+        font-size: 1em;
+    }
     .carousel-inner {
         min-height: 300px;
     }
@@ -910,6 +915,8 @@ body{
 	.go-top-btn a:hover{
 		background-color: rgba(126, 76, 79, 0.9);
     }
+
+
 }
 
 
